@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Todo List</h1>
+            </header>
+            <main>
+                <input type="text" id="new-todo" placeholder="Add your todo item....."><br>
+                <button id="add-todo">Add</button>
+                <button id="complete-all">Complete All Tasks</button>
+                <div id="todo-list-div">
+                    <ul id="todo-list"></ul>
+                </div>
+            </main>
+            <footer>
+                <p id="task-count">0 Task Left !!</p>
+                <div id="filters" class="filters">
+                    <button id="filter-all">All</button>
+                    <button id="filter-incompleted">Incomplete</button>
+                    <button id="filter-completed">Completed</button>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
