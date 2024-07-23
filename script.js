@@ -142,10 +142,3 @@ document.getElementById('filter-completed').addEventListener('click',
         filterTodos('completed'); 
     }
 );
-
- => Open the HTML file in a web browser.
- => Type a new to-do item in the input field, press Enter, or click the "Add Todo" button.
- => Click the checkbox to mark a to-do item as completed.
- => Click the "×" button to delete a to-do item.
- => Click the "Complete All" button to mark all tasks as  completed.
- => Use the filter buttons to view All, Incompleted, or Completed to-do items.
